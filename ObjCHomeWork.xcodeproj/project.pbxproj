@@ -19,6 +19,7 @@
 		0E4DC7DB181AC244005CAD79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4DC7C3181AC243005CAD79 /* UIKit.framework */; };
 		0E4DC7E3181AC244005CAD79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E4DC7E1181AC244005CAD79 /* InfoPlist.strings */; };
 		0E4DC7E5181AC244005CAD79 /* ObjCHomeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DC7E4181AC244005CAD79 /* ObjCHomeWorkTests.m */; };
+		0E4DC7F0181AC970005CAD79 /* Electronics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DC7EF181AC970005CAD79 /* Electronics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		0E4DC7E0181AC244005CAD79 /* ObjCHomeWorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCHomeWorkTests-Info.plist"; sourceTree = "<group>"; };
 		0E4DC7E2181AC244005CAD79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E4DC7E4181AC244005CAD79 /* ObjCHomeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCHomeWorkTests.m; sourceTree = "<group>"; };
+		0E4DC7EE181AC970005CAD79 /* Electronics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Electronics.h; sourceTree = "<group>"; };
+		0E4DC7EF181AC970005CAD79 /* Electronics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Electronics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +110,9 @@
 		0E4DC7C5181AC243005CAD79 /* ObjCHomeWork */ = {
 			isa = PBXGroup;
 			children = (
-				0E4DC7CE181AC243005CAD79 /* AppDelegate.h */,
-				0E4DC7CF181AC243005CAD79 /* AppDelegate.m */,
 				0E4DC7D1181AC243005CAD79 /* Images.xcassets */,
+				0E4DC7EE181AC970005CAD79 /* Electronics.h */,
+				0E4DC7EF181AC970005CAD79 /* Electronics.m */,
 				0E4DC7C6181AC243005CAD79 /* Supporting Files */,
 			);
 			path = ObjCHomeWork;
@@ -118,6 +121,8 @@
 		0E4DC7C6181AC243005CAD79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E4DC7CE181AC243005CAD79 /* AppDelegate.h */,
+				0E4DC7CF181AC243005CAD79 /* AppDelegate.m */,
 				0E4DC7C7181AC243005CAD79 /* ObjCHomeWork-Info.plist */,
 				0E4DC7C8181AC243005CAD79 /* InfoPlist.strings */,
 				0E4DC7CB181AC243005CAD79 /* main.m */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4DC7F0181AC970005CAD79 /* Electronics.m in Sources */,
 				0E4DC7D0181AC243005CAD79 /* AppDelegate.m in Sources */,
 				0E4DC7CC181AC243005CAD79 /* main.m in Sources */,
 			);
