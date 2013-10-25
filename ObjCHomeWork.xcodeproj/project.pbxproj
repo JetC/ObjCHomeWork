@@ -20,6 +20,9 @@
 		0E4DC7E3181AC244005CAD79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E4DC7E1181AC244005CAD79 /* InfoPlist.strings */; };
 		0E4DC7E5181AC244005CAD79 /* ObjCHomeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DC7E4181AC244005CAD79 /* ObjCHomeWorkTests.m */; };
 		0E4DC7F0181AC970005CAD79 /* Electronics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DC7EF181AC970005CAD79 /* Electronics.m */; };
+		0E4DC7F3181ACBC6005CAD79 /* Nokia.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DC7F2181ACBC6005CAD79 /* Nokia.m */; };
+		0E4DC7F6181ACE7F005CAD79 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DC7F5181ACE7F005CAD79 /* Apple.m */; };
+		0E4DC7F9181ACFE5005CAD79 /* ThinkPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4DC7F8181ACFE5005CAD79 /* ThinkPad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		0E4DC7E4181AC244005CAD79 /* ObjCHomeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCHomeWorkTests.m; sourceTree = "<group>"; };
 		0E4DC7EE181AC970005CAD79 /* Electronics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Electronics.h; sourceTree = "<group>"; };
 		0E4DC7EF181AC970005CAD79 /* Electronics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Electronics.m; sourceTree = "<group>"; };
+		0E4DC7F1181ACBC6005CAD79 /* Nokia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nokia.h; sourceTree = "<group>"; };
+		0E4DC7F2181ACBC6005CAD79 /* Nokia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nokia.m; sourceTree = "<group>"; };
+		0E4DC7F4181ACE7F005CAD79 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		0E4DC7F5181ACE7F005CAD79 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		0E4DC7F7181ACFE5005CAD79 /* ThinkPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinkPad.h; sourceTree = "<group>"; };
+		0E4DC7F8181ACFE5005CAD79 /* ThinkPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinkPad.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,12 @@
 			children = (
 				0E4DC7D1181AC243005CAD79 /* Images.xcassets */,
 				0E4DC7EE181AC970005CAD79 /* Electronics.h */,
+				0E4DC7F1181ACBC6005CAD79 /* Nokia.h */,
+				0E4DC7F4181ACE7F005CAD79 /* Apple.h */,
+				0E4DC7F7181ACFE5005CAD79 /* ThinkPad.h */,
+				0E4DC7F8181ACFE5005CAD79 /* ThinkPad.m */,
+				0E4DC7F5181ACE7F005CAD79 /* Apple.m */,
+				0E4DC7F2181ACBC6005CAD79 /* Nokia.m */,
 				0E4DC7EF181AC970005CAD79 /* Electronics.m */,
 				0E4DC7C6181AC243005CAD79 /* Supporting Files */,
 			);
@@ -244,8 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4DC7F6181ACE7F005CAD79 /* Apple.m in Sources */,
+				0E4DC7F3181ACBC6005CAD79 /* Nokia.m in Sources */,
 				0E4DC7F0181AC970005CAD79 /* Electronics.m in Sources */,
 				0E4DC7D0181AC243005CAD79 /* AppDelegate.m in Sources */,
+				0E4DC7F9181ACFE5005CAD79 /* ThinkPad.m in Sources */,
 				0E4DC7CC181AC243005CAD79 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

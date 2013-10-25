@@ -13,6 +13,7 @@
 @property NSString *brand;
 @property NSString *color;
 
-- (void) 
+- (void)powerOn;
+- (void)powerOff;
 
 @end

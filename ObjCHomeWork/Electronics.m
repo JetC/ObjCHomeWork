@@ -10,4 +10,14 @@
 
 @implementation Electronics
 
+-(void)powerOn
+{
+    NSLog(@"I'm starting!");
+}
+
+-(void)powerOff
+{
+    NSLog(@"I'm going to power off!");
+}
+
 @end
