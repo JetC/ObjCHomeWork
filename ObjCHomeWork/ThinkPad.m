@@ -10,4 +10,12 @@
 
 @implementation ThinkPad
 
+- (void)startAPS;
+{
+    NSLog(@"APS starting!");
+}
+- (void)bootFromCD;
+{
+    NSLog(@"Now booting from CD!");
+}
 @end
