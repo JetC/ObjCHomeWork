@@ -20,4 +20,9 @@
     NSLog(@"Now charging without any cable!");
 }
 
+- (void)printMyDescription
+{
+    NSLog(@"My IMEI is:%@",_IMEI);
+    NSLog(@"My battery dismountment is:%s",_batteryDismountableOrNot);
+}
 @end

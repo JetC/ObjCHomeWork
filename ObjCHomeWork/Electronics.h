@@ -15,5 +15,6 @@
 
 - (void)powerOn;
 - (void)powerOff;
+- (void)printMyDescription;
 
 @end

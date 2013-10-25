@@ -15,5 +15,6 @@
 
 - (void)crackWalnut;
 - (void)chargeWirelessly;
+- (void)printMyDescription;
 
 @end

@@ -11,10 +11,10 @@
 @interface Apple : Electronics
 
 @property NSString *UUID;
-@property NSMutableArray *generation;
+@property NSInteger *generation;
 
 - (void)callSiri;
 - (void)backUpToiCloud;
-
+- (void)printMyDescription;
 
 @end

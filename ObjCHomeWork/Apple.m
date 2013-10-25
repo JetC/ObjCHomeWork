@@ -20,4 +20,9 @@
     NSLog(@"Now syncing with iCloud!");
 }
 
+- (void)printMyDescription
+{
+    NSLog(@"My UUID is:%@",self.UUID);
+    NSLog(@"My generation is:%i",self.generation);
+}
 @end
