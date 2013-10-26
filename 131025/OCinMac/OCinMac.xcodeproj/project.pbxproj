@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4F6812181A4884001C797C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4F6811181A4884001C797C /* Foundation.framework */; };
+		3F4F6815181A4884001C797C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F6814181A4884001C797C /* main.m */; };
+		3F4F6819181A4884001C797C /* OCinMac.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F4F6818181A4884001C797C /* OCinMac.1 */; };
+		3F4F682E181A48F8001C797C /* ThinkPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F6826181A48F8001C797C /* ThinkPad.m */; };
+		3F4F682F181A48F8001C797C /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F6827181A48F8001C797C /* Apple.m */; };
+		3F4F6830181A48F8001C797C /* Nokia.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F6828181A48F8001C797C /* Nokia.m */; };
+		3F4F6831181A48F8001C797C /* Electronics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F6829181A48F8001C797C /* Electronics.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F4F680B181A4884001C797C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3F4F6819181A4884001C797C /* OCinMac.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F4F680D181A4884001C797C /* OCinMac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCinMac; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4F6811181A4884001C797C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F4F6814181A4884001C797C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F4F6817181A4884001C797C /* OCinMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCinMac-Prefix.pch"; sourceTree = "<group>"; };
+		3F4F6818181A4884001C797C /* OCinMac.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OCinMac.1; sourceTree = "<group>"; };
+		3F4F6822181A48F8001C797C /* Electronics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Electronics.h; sourceTree = "<group>"; };
+		3F4F6823181A48F8001C797C /* Nokia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nokia.h; sourceTree = "<group>"; };
+		3F4F6824181A48F8001C797C /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		3F4F6825181A48F8001C797C /* ThinkPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinkPad.h; sourceTree = "<group>"; };
+		3F4F6826181A48F8001C797C /* ThinkPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinkPad.m; sourceTree = "<group>"; };
+		3F4F6827181A48F8001C797C /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		3F4F6828181A48F8001C797C /* Nokia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nokia.m; sourceTree = "<group>"; };
+		3F4F6829181A48F8001C797C /* Electronics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Electronics.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F4F680A181A4884001C797C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4F6812181A4884001C797C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4F6802181A4884001C797C = {
+			isa = PBXGroup;
+			children = (
+				3F4F6813181A4884001C797C /* OCinMac */,
+				3F4F6810181A4884001C797C /* Frameworks */,
+				3F4F680E181A4884001C797C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F4F680E181A4884001C797C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F680D181A4884001C797C /* OCinMac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F4F6810181A4884001C797C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F6811181A4884001C797C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F4F6813181A4884001C797C /* OCinMac */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F6822181A48F8001C797C /* Electronics.h */,
+				3F4F6823181A48F8001C797C /* Nokia.h */,
+				3F4F6824181A48F8001C797C /* Apple.h */,
+				3F4F6825181A48F8001C797C /* ThinkPad.h */,
+				3F4F6826181A48F8001C797C /* ThinkPad.m */,
+				3F4F6827181A48F8001C797C /* Apple.m */,
+				3F4F6828181A48F8001C797C /* Nokia.m */,
+				3F4F6829181A48F8001C797C /* Electronics.m */,
+				3F4F6814181A4884001C797C /* main.m */,
+				3F4F6818181A4884001C797C /* OCinMac.1 */,
+				3F4F6816181A4884001C797C /* Supporting Files */,
+			);
+			path = OCinMac;
+			sourceTree = "<group>";
+		};
+		3F4F6816181A4884001C797C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F6817181A4884001C797C /* OCinMac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F4F680C181A4884001C797C /* OCinMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4F681C181A4884001C797C /* Build configuration list for PBXNativeTarget "OCinMac" */;
+			buildPhases = (
+				3F4F6809181A4884001C797C /* Sources */,
+				3F4F680A181A4884001C797C /* Frameworks */,
+				3F4F680B181A4884001C797C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCinMac;
+			productName = OCinMac;
+			productReference = 3F4F680D181A4884001C797C /* OCinMac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F4F6804181A4884001C797C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = student;
+			};
+			buildConfigurationList = 3F4F6807181A4884001C797C /* Build configuration list for PBXProject "OCinMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F4F6802181A4884001C797C;
+			productRefGroup = 3F4F680E181A4884001C797C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4F680C181A4884001C797C /* OCinMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F4F6809181A4884001C797C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4F6815181A4884001C797C /* main.m in Sources */,
+				3F4F682E181A48F8001C797C /* ThinkPad.m in Sources */,
+				3F4F682F181A48F8001C797C /* Apple.m in Sources */,
+				3F4F6830181A48F8001C797C /* Nokia.m in Sources */,
+				3F4F6831181A48F8001C797C /* Electronics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F4F681A181A4884001C797C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F4F681B181A4884001C797C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F4F681D181A4884001C797C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCinMac/OCinMac-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F4F681E181A4884001C797C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCinMac/OCinMac-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F4F6807181A4884001C797C /* Build configuration list for PBXProject "OCinMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4F681A181A4884001C797C /* Debug */,
+				3F4F681B181A4884001C797C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4F681C181A4884001C797C /* Build configuration list for PBXNativeTarget "OCinMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4F681D181A4884001C797C /* Debug */,
+				3F4F681E181A4884001C797C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F4F6804181A4884001C797C /* Project object */;
+}
