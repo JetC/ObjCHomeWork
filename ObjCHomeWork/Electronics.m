@@ -24,4 +24,11 @@
 {
     
 }
+
+-(void)printMyBrand:(NSString *)brand andColor:(NSString *)color
+{
+    _brand = brand;
+    _color = color;
+    NSLog(@"My brand is %@,my color is %@",_brand,_color);
+}
 @end

@@ -26,6 +26,9 @@ int main(int argc, char * argv[])
         W530.withComboOrNot = true;
         [W530 startAPS];
         [W530 bootFromCD];
+        W530.color = @"black";
+        W530.brand = @"ThinkPad";
+        [W530 printMyBrand:@"ThinkPad" andColor:@"black"];
 
         Apple *ip4s = [[Apple alloc]init];
         ip4s.UUID = @"10010";

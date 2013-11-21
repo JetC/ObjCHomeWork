@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0E4DC7BB181AC243005CAD79"
-               BuildableName = "ObjCHomeWork.app"
-               BlueprintName = "ObjCHomeWork"
-               ReferencedContainer = "container:ObjCHomeWork.xcodeproj">
+               BlueprintIdentifier = "3F4F680C181A4884001C797C"
+               BuildableName = "OCinMac"
+               BlueprintName = "OCinMac"
+               ReferencedContainer = "container:OCinMac.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0E4DC7D6181AC244005CAD79"
-               BuildableName = "ObjCHomeWorkTests.xctest"
-               BlueprintName = "ObjCHomeWorkTests"
-               ReferencedContainer = "container:ObjCHomeWork.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0E4DC7BB181AC243005CAD79"
-            BuildableName = "ObjCHomeWork.app"
-            BlueprintName = "ObjCHomeWork"
-            ReferencedContainer = "container:ObjCHomeWork.xcodeproj">
+            BlueprintIdentifier = "3F4F680C181A4884001C797C"
+            BuildableName = "OCinMac"
+            BlueprintName = "OCinMac"
+            ReferencedContainer = "container:OCinMac.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0E4DC7BB181AC243005CAD79"
-            BuildableName = "ObjCHomeWork.app"
-            BlueprintName = "ObjCHomeWork"
-            ReferencedContainer = "container:ObjCHomeWork.xcodeproj">
+            BlueprintIdentifier = "3F4F680C181A4884001C797C"
+            BuildableName = "OCinMac"
+            BlueprintName = "OCinMac"
+            ReferencedContainer = "container:OCinMac.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0E4DC7BB181AC243005CAD79"
-            BuildableName = "ObjCHomeWork.app"
-            BlueprintName = "ObjCHomeWork"
-            ReferencedContainer = "container:ObjCHomeWork.xcodeproj">
+            BlueprintIdentifier = "3F4F680C181A4884001C797C"
+            BuildableName = "OCinMac"
+            BlueprintName = "OCinMac"
+            ReferencedContainer = "container:OCinMac.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
