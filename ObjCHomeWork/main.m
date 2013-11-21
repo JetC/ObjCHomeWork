@@ -1,7 +1,6 @@
 //
 //  main.m
 //  ObjCHomeWork
-//
 //  Created by john fg on 13-10-25.
 //  Copyright (c) 2013年 john fg. All rights reserved.
 //
@@ -36,6 +35,8 @@ int main(int argc, char * argv[])
         [ip4s callSiri];
         [ip4s backUpToiCloud];
         [ip4s printMyDescription];
+        [ip4s printMyColorAndBrandUsingProtocol];
+        
 
 
 

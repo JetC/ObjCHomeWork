@@ -25,4 +25,10 @@
     NSLog(@"My UUID is:%@",self.UUID);
     NSLog(@"My generation is:%i",self.generation);
 }
+
+-(void)printMyColorAndBrandUsingProtocol
+{
+    [self printMyDescription];
+    [self printMyBrandAndColorDirectly];
+}
 @end

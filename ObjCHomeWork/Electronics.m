@@ -31,4 +31,9 @@
     _color = color;
     NSLog(@"My brand is %@,my color is %@",_brand,_color);
 }
+
+- (void)printMyBrandAndColorDirectly
+{
+    NSLog(@"%@%@",self.brand,self.color);
+}
 @end

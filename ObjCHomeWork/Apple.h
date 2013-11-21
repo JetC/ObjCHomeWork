@@ -7,8 +7,9 @@
 //
 
 #import "Electronics.h"
+#import "TellMeDetail.h"
 
-@interface Apple : Electronics
+@interface Apple : Electronics<TellMeDetail>
 
 @property NSString *UUID;
 @property NSInteger *generation;
@@ -16,5 +17,6 @@
 - (void)callSiri;
 - (void)backUpToiCloud;
 - (void)printMyDescription;
+
 
 @end

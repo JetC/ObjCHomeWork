@@ -17,5 +17,7 @@
 - (void)powerOff;
 - (void)printMyDescription;
 - (void)printMyBrand:(NSString *)brand andColor:(NSString *)color;
+- (void)printMyBrandAndColorDirectly;
+
 
 @end
